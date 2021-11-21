@@ -3,9 +3,9 @@
 All codes assume running from root directory. Please update the sys path at the beginning of the codes before running.
 
 ## Over View
-``` 
+
 Json2Xml tool will help you convert from json COCO format to VOC xml format in Object Detection Problem. In sample folder is valid set of Mask Wearing Dataset from [Roboflow](https://public.roboflow.com/object-detection/mask-wearing/1).
-```
+
 
 ## Requirements
 ```
