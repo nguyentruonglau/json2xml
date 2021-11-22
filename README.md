@@ -9,8 +9,6 @@ Json2Xml tool will help you convert from json COCO format to VOC xml format in O
 
 ## Requirements
 ```
-python == 3.X
-tensorflow == 2.X
 imutils==0.5.4
 lxml==4.6.3
 imagesize==1.2.0
