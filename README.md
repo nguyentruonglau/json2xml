@@ -19,8 +19,8 @@ imagesize==1.2.0
 ## Execution
 
 ```
-   > python json2xml.py --output-dir (directory will contain xml files)
-                        --json_annotations_path (path to json file)
+> python json2xml.py --output-dir (directory will contain xml files)
+                     --json_annotations_path (path to json file)
 ```
 
 ## Comment
