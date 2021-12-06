@@ -146,7 +146,7 @@ def convert(doc, output_dir):
   for i in range(len(doc['images'])):
     #get annotation information
     bbox_cg = id_bbox[i+1]; bbox_cg = np.array(bbox_cg)
-    bbox = bbox_cg[:, 0:4]; categories = bbox_cg[:,4]
+    bbox = np.array(bbox_cg[:, 0:4], dtype=int); categories = bbox_cg[:,4]
 
     object_names = []
     for cg in categories:
